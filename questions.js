@@ -1,19 +1,10 @@
 questions = [
     {
-        "question": "Oppression by corporations is more of a concern than oppression by governments.",
+        "question": "There should be less regulations.",
         "effect": {
-            "econ": 10,
+            "econ": ,
             "dipl": 0,
-            "govt": -5,
-            "scty": 0
-        }
-    },
-    {
-        "question": "It is necessary for the government to intervene in the economy to protect consumers.",
-        "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
+            "govt": 10,
             "scty": 0
         }
     },
@@ -27,7 +18,7 @@ questions = [
         }
     },
     {
-        "question": "It is better to maintain a balanced budget than to ensure welfare for all citizens.",
+        "question": "We should ensure everyone has their basic needs met",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -56,23 +47,15 @@ questions = [
     {
         "question": "From each according to his ability, to each according to his needs.",
         "effect": {
-            "econ": 10,
+            "econ": 15,
             "dipl": 0,
             "govt": 0,
             "scty": 0
         }
     },
+
     {
-        "question": "It would be best if social programs were abolished in favor of private charity.",
-        "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Taxes should be increased on the rich to provide for the poor.",
+        "question": "Progressive taxation is better than a flat one.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -81,18 +64,18 @@ questions = [
         }
     },
     {
-        "question": "Inheritance is a legitimate form of wealth.",
+        "question": "Inheritance of anything, which is not personal possession is illegitimate.",
         "effect": {
-            "econ": -10,
+            "econ": 10,
             "dipl": 0,
             "govt": 0,
             "scty": -5
         }
     },
     {
-        "question": "Basic utilities like roads and electricity should be publicly owned.",
+        "question": "Basic utilities like roads and electricity should be privatized.",
         "effect": {
-            "econ": 10,
+            "econ": -10,
             "dipl": 0,
             "govt": 0,
             "scty": 0
@@ -101,9 +84,18 @@ questions = [
     {
         "question": "Government intervention is a threat to the economy.",
         "effect": {
-            "econ": -10,
+            "econ": -5,
             "dipl": 0,
-            "govt": 0,
+            "govt": 5,
+            "scty": 0
+        }
+    },
+            {
+        "question": "Using forced labour is unethical.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 10,
             "scty": 0
         }
     },
@@ -126,7 +118,7 @@ questions = [
         }
     },
     {
-        "question": "The means of production should belong to the workers who use them.",
+        "question": "The means of production should belong to the workers.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -134,15 +126,7 @@ questions = [
             "scty": 0
         }
     },
-    {
-        "question": "The United Nations should be abolished.",
-        "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -5,
-            "scty": 0
-        }
-    },
+    
     {
         "question": "Military action by our nation is often necessary to protect it.",
         "effect": {
@@ -152,21 +136,22 @@ questions = [
             "scty": 0
         }
     },
-    {
-        "question": "I support regional unions, such as the European Union.",
-        "effect": {
-            "econ": -5,
-            "dipl": 10,
-            "govt": 10,
-            "scty": 5
-        }
-    },
+    
     {
         "question": "It is important to maintain our national sovereignty.",
         "effect": {
             "econ": 0,
             "dipl": -10,
-            "govt": -5,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+            {
+        "question": "A federal government is better than unitary one.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
             "scty": 0
         }
     },
@@ -252,12 +237,12 @@ questions = [
         }
     },
     {
-        "question": "My religious values should be spread as much as possible.",
+        "question": "Hierarchies should be dismantled.",
         "effect": {
-            "econ": 0,
-            "dipl": -5,
-            "govt": -10,
-            "scty": -10
+            "econ": 5,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 0
         }
     },
     {
@@ -273,9 +258,9 @@ questions = [
         "question": "It is very important to maintain law and order.",
         "effect": {
             "econ": 0,
-            "dipl": -5,
+            "dipl": 0,
             "govt": -10,
-            "scty": -5
+            "scty": 0
         }
     },
     {
@@ -331,27 +316,19 @@ questions = [
             "govt": -10,
             "scty": -5
         }
-    },
+            },
+            
     {
-        "question": "All authority should be questioned.",
+        "question": "Monarchy is best form of government.",
         "effect": {
             "econ": 0,
             "dipl": 0,
             "govt": 10,
-            "scty": 5
+            "scty": 10
         }
     },
     {
-        "question": "A hierarchical state is best.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "It is important that the government follows the majority opinion, even if it is wrong.",
+        "question": "Government should do what people want not the other way around.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -368,15 +345,7 @@ questions = [
             "scty": 0
         }
     },
-    {
-        "question": "Democracy is more than a decision-making process.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 0
-        }
-    },
+  
     {
         "question": "Environmental regulations are essential.",
         "effect": {
@@ -400,7 +369,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -5,
+            "govt": 0,
             "scty": -10
         }
     },
@@ -413,15 +382,7 @@ questions = [
             "scty": 10
         }
     },
-    {
-        "question": "Religion should play a role in government.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": -10
-        }
-    },
+    
     {
         "question": "Churches should be taxed the same way other institutions are taxed.",
         "effect": {
@@ -491,7 +452,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": 10,
-            "scty": 2
+            "scty": 0
         }
     },
     {
@@ -517,7 +478,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -5,
+            "govt": 0,
             "scty": -10
         }
     },
@@ -525,7 +486,7 @@ questions = [
         "question": "If we accept migrants at all, it is important that they assimilate into our culture.",
         "effect": {
             "econ": 0,
-            "dipl": 0,
+            "dipl": -5,
             "govt": -5,
             "scty": -10
         }
@@ -549,9 +510,9 @@ questions = [
         }
     },
     {
-        "question": "I support single-payer, universal healthcare.",
+        "question": "I support private healthcare.",
         "effect": {
-            "econ": 10,
+            "econ": -10,
             "dipl": 0,
             "govt": 0,
             "scty": 0
@@ -584,6 +545,15 @@ questions = [
             "scty": -10
         }
     },
+            {
+        "question": "Workers should have more say in the workplace.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 5,
+            "scty": 0
+        }
+    },
     {
         "question": "Genetic modification is a force for good, even on humans.",
         "effect": {
@@ -612,12 +582,12 @@ questions = [
         }
     },
     {
-        "question": "All people - regardless of factors like culture or sexuality - should be treated equally.",
+        "question": "A non monetary economy would be ideal.",
         "effect": {
             "econ": 10,
-            "dipl": 10,
-            "govt": 10,
-            "scty": 10
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
         }
     },
     {
