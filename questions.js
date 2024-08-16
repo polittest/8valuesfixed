@@ -2,7 +2,7 @@ questions = [
     {
         "question": "There should be less regulations.",
         "effect": {
-            "econ": ,
+            "econ": 0,
             "dipl": 0,
             "govt": 10,
             "scty": 0
@@ -103,6 +103,24 @@ questions = [
         "question": "Those with a greater ability to pay should receive better healthcare.",
         "effect": {
             "econ": -10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+{
+        "question": "Prices should be determinated by supply and demand",
+        "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+{
+        "question": "We should produce based on use and need not commodity.",
+        "effect": {
+            "econ": 10,
             "dipl": 0,
             "govt": 0,
             "scty": 0
