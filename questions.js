@@ -17,24 +17,25 @@ questions = [
             "scty": 0
         }
     },
+ {
+        "question": "Main objective of justice system should be rehabilition not punishment.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 0
+        }
+    },
     {
         "question": "We should ensure everyone has their basic needs met",
         "effect": {
-            "econ": -10,
+            "econ": 10,
             "dipl": 0,
             "govt": 0,
             "scty": 0
         }
     },
-    {
-        "question": "Publicly-funded research is more beneficial to the people than leaving it to the market.",
-        "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
+    
     
     {
         "question": "From each according to his ability, to each according to his needs.",
@@ -73,6 +74,7 @@ questions = [
             "scty": 0
         }
     },
+
     {
         "question": "Government intervention is a threat to the economy.",
         "effect": {
@@ -138,7 +140,7 @@ questions = [
     },
     
     {
-        "question": "Military action by our nation is often necessary to protect it.",
+        "question": "Military action by our country is often necessary to protect it and therefore justified.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -252,6 +254,15 @@ questions = [
             "econ": 5,
             "dipl": 0,
             "govt": 10,
+            "scty": 0
+        }
+    },
+  {
+        "question": "We should abolish private productive property.",
+        "effect": {
+            "econ": 15,
+            "dipl": 0,
+            "govt": 0,
             "scty": 0
         }
     },
