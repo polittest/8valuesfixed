@@ -35,15 +35,7 @@ questions = [
             "scty": 10
         }
     },
-    {
-        "question": "Tariffs on international trade are important to encourage local production.",
-        "effect": {
-            "econ": 5,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
-        }
-    },
+    
     {
         "question": "From each according to his ability, to each according to his needs.",
         "effect": {
@@ -212,7 +204,7 @@ questions = [
     {
         "question": "International aid is a waste of money.",
         "effect": {
-            "econ": -5,
+            "econ": 0,
             "dipl": -10,
             "govt": 0,
             "scty": 0
@@ -364,15 +356,7 @@ questions = [
         }
     },
   
-    {
-        "question": "Environmental regulations are essential.",
-        "effect": {
-            "econ": 5,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
+    
     {
         "question": "A better world will come from automation, science, and technology.",
         "effect": {
@@ -528,7 +512,7 @@ questions = [
         }
     },
     {
-        "question": "I support private healthcare.",
+        "question": "I support privatization of healthcare.",
         "effect": {
             "econ": -10,
             "dipl": 0,
